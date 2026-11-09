@@ -4,7 +4,7 @@ Herramienta portátil para diagnosticar equipos Windows durante visitas técnica
 
 ## Uso
 
-1. Descarga `PC-Mochi-Rescue-v0.3-Windows-x64.zip` desde [Releases](../../releases/tag/v0.3).
+1. Descarga `PC-Mochi-Rescue-v0.3-Windows-x64.zip` desde [Releases](https://github.com/Jose199909/pc-mochi-rescue/releases/tag/v0.3).
 2. Extrae todo el ZIP en una carpeta o memoria USB.
 3. Abre `Abrir PC Mochi Rescue.cmd`, elige el síntoma y pulsa **Analizar PC**.
 4. Revisa el **Resumen** y guarda o copia el **Informe completo** si lo necesitas.
