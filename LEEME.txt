@@ -1,0 +1,29 @@
+PC MOCHI RESCUE | Versión 0.3
+
+1. En Windows, abre «Abrir PC Mochi Rescue.cmd» desde la USB.
+2. Elige el síntoma, escribe un número de caso si lo necesitas y pulsa
+   «Analizar PC». Si el equipo se reinicia, puedes indicar la hora
+   aproximada para consultar los eventos de los 30 minutos a cada lado.
+3. Revisa los hallazgos en «Resumen». Cada uno indica qué se observó y
+   qué comprobar. Usa sus botones para abrir herramientas de Windows.
+   En «Informe completo» encontrarás las mediciones y el plan. Puedes
+   copiarlo o guardarlo como texto en la ubicación que elijas.
+4. En «IA local», describe el síntoma y pulsa «Consultar IA». Valida la
+   respuesta con los datos del informe y con el equipo.
+5. En «Herramientas», abre utilidades de Windows o confirma el vaciado de
+   caché DNS si estás investigando la resolución de nombres.
+
+«Cancelar» interrumpe la consulta de IA o detiene el análisis cuando
+termina la comprobación de Windows que esté en curso.
+
+El análisis funciona sin Internet y es de solo lectura. Si una consulta de
+Windows falla por acceso o compatibilidad, el informe lo señala. Revisa los
+nombres de programas y dispositivos antes de compartir el informe.
+
+La IA portátil usa llama.cpp b12129 y Qwen2.5-1.5B-Instruct Q4_K_M. Requiere
+Windows x64. La consulta se procesa en el equipo. El archivo temporal de la
+consulta se elimina al finalizar normalmente. La IA ofrece texto y no puede
+ejecutar reparaciones. Los archivos y licencias están en la carpeta IA.
+
+Modelo: https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF
+Motor: https://github.com/ggml-org/llama.cpp/releases/tag/b12129
